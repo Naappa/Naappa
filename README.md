@@ -1,4 +1,5 @@
-# 안녕하세요 👋
+#👋Ways to reach me
+jabathehuttms@gmail.com
 
 로봇공학을 전공하고, **로봇 소프트웨어와 관제 시스템**을 공부하고 있습니다.
 C와 Python을 활용한 로봇 제어, 컴퓨터 비전, 자동화 프로젝트를 경험했습니다.
