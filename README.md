@@ -1,16 +1,64 @@
-## Hi there 👋
+# 안녕하세요 👋
 
-<!--
-**Naappa/Naappa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+로봇공학을 전공하고, **로봇 소프트웨어와 관제 시스템**을 공부하고 있습니다.
+C와 Python을 활용한 로봇 제어, 컴퓨터 비전, 자동화 프로젝트를 경험했습니다.
 
-Here are some ideas to get you started:
+현재는 **스마트팜 정찰·수확·운송 로봇 프로젝트의 관제 파트**를 맡아 시스템 구조, 로봇 간 작업 흐름, ROS 2 통신 인터페이스를 설계하고 있습니다.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ 사용·학습한 기술
+
+| 분야       | 기술                              |
+| -------- | ------------------------------- |
+| 프로그래밍    | C, Python                       |
+| 개발 환경    | Linux(Ubuntu)                   |
+| 로봇 소프트웨어 | ROS 2, Nav2, TF2, Gazebo        |
+| 컴퓨터 비전   | OpenCV, YOLO                    |
+| 임베디드     | Raspberry Pi 5, STM32, FreeRTOS |
+| 산업 자동화   | Mitsubishi PLC, GX Works2, HMI  |
+| 협업 및 문서화 | GitHub, Jira, Confluence        |
+
+## 🚀 프로젝트
+
+### 스마트팜 정찰·수확·운송 로봇 통합 관제 시스템
+
+**진행 중 · 관제 설계 담당**
+**기술:** ROS 2, Python, Nav2
+
+* 정찰 로봇이 작물 위치를 전달하면 수확 로봇이 수확하고, 운송 로봇이 수확물을 배송하는 시스템
+* 기존 로봇 플랫폼을 활용한 전체 작업 흐름과 관제 아키텍처 설계
+* 로봇 상태 관리, 작업 배정, 예외 처리 요구사항
+
+### 양팔 로봇 제어 시스템 — ARMIGO
+
+**기술:** STM32, Dynamixel AX-12A, Bluetooth
+
+* 두 STM32 보드와 Dynamixel 모터를 활용한 리더·팔로워 방식의 로봇팔 제어 프로젝트
+* 리더 로봇팔의 관절 위치를 Bluetooth로 전달해 팔로워 로봇팔이 동작을 따라 하도록 구성
+
+### 소재 가공·분류·적재 자동화 시스템 — AutoStore
+
+**기술:** Mitsubishi PLC, GX Works2, HMI
+
+* 소재를 드릴 가공한 뒤 가공 시간과 횟수에 따라 분류·적재하는 자동화 프로젝트
+* PLC 기반 설비 동작 제어 및 자동·수동 운전 기능 구성
+
+### 시각장애인 안내 로봇
+
+**기술:** Raspberry Pi 5, STM32, YOLO, OpenCV
+
+* 카메라 기반 객체 인식과 초음파 거리 측정을 활용한 장애물 감지·회피 프로젝트
+* Raspberry Pi에서 인식 결과와 거리 정보를 처리하고, UART로 STM32에 주행 명령 전달
+
+### MLB 타격 데이터 기반 예측 모델
+
+**활용 기법:** 데이터 전처리, EDA, 선형 회귀
+
+* MLB 타격 데이터를 전처리하고 탐색적 데이터 분석(EDA) 수행
+* 선형 회귀를 활용해 타구 비거리, 발사 속도·각도, 낙하지점 좌표 예측 및 성능 비교
+
+## 🌱 현재 학습 중
+
+* Python 기초와 ROS 2 노드 개발
+* Topic·Service·Action을 활용한 로봇 통신
+* FSM 기반 작업 흐름 설계와 예외 처리
+
